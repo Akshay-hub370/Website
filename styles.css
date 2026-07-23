@@ -3739,3 +3739,269 @@ Extra Small Phones
 }
 
 }
+/* ==========================================
+   EV CHARGING MOBILE FIX
+   Add at the VERY END of styles.css
+========================================== */
+
+@media screen and (max-width:768px){
+
+/* Hero */
+
+.ev-hero{
+
+    min-height:auto;
+    padding:120px 20px 70px;
+    background-attachment:scroll;
+
+}
+
+.ev-hero .container{
+
+    width:100%;
+
+}
+
+.hero-content{
+
+    max-width:100%;
+    text-align:center;
+
+}
+
+.hero-content h1{
+
+    font-size:34px !important;
+    line-height:1.2;
+    margin-bottom:20px;
+
+}
+
+.hero-content p{
+
+    font-size:16px;
+    line-height:1.7;
+
+}
+
+.hero-buttons{
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:15px;
+
+}
+
+.hero-buttons a{
+
+    width:100%;
+    max-width:280px;
+
+}
+
+/* About */
+
+.ev-grid{
+
+    display:flex !important;
+    flex-direction:column;
+    gap:40px;
+
+}
+
+.ev-image{
+
+    order:1;
+
+}
+
+.ev-content{
+
+    order:2;
+    text-align:center;
+
+}
+
+.ev-content h2{
+
+    font-size:30px;
+
+}
+
+.ev-content ul{
+
+    list-style:none;
+    padding:0;
+
+}
+
+.ev-content li{
+
+    margin-bottom:12px;
+
+}
+
+.ev-image img{
+
+    width:100%;
+    border-radius:15px;
+
+}
+
+/* Sections */
+
+.ev-about,
+.ev-solutions,
+.charger-types,
+.installation-process,
+.why-ev,
+.industries,
+.gallery,
+.faq,
+.ev-cta{
+
+    padding:70px 20px;
+
+}
+
+.section-title{
+
+    margin-bottom:40px;
+
+}
+
+.section-title h2{
+
+    font-size:30px;
+
+}
+
+.section-title p{
+
+    font-size:15px;
+
+}
+
+/* Cards */
+
+.solution-grid,
+.charger-grid,
+.features-grid,
+.industry-grid,
+.timeline,
+.gallery-grid{
+
+    display:grid;
+    grid-template-columns:1fr !important;
+    gap:20px;
+
+}
+
+.solution-card,
+.charger-card,
+.feature,
+.timeline div,
+.industry-grid div{
+
+    padding:25px;
+
+}
+
+.solution-card h3,
+.charger-card h3{
+
+    font-size:22px;
+
+}
+
+/* Gallery */
+
+.gallery-grid img{
+
+    height:220px;
+
+}
+
+/* FAQ */
+
+.faq-item{
+
+    padding:20px;
+
+}
+
+.faq-item h3{
+
+    font-size:18px;
+
+}
+
+/* CTA */
+
+.ev-cta h2{
+
+    font-size:30px;
+
+}
+
+.ev-cta p{
+
+    font-size:16px;
+
+}
+
+/* Buttons */
+
+.btn-primary,
+.btn-secondary{
+
+    display:block;
+    width:100%;
+    max-width:280px;
+    margin:auto;
+
+}
+
+}
+
+
+/* Extra Small Phones */
+
+@media screen and (max-width:480px){
+
+.hero-content h1{
+
+    font-size:28px !important;
+
+}
+
+.ev-content h2{
+
+    font-size:26px;
+
+}
+
+.section-title h2{
+
+    font-size:26px;
+
+}
+
+.solution-card,
+.charger-card,
+.feature,
+.timeline div,
+.industry-grid div{
+
+    padding:20px;
+
+}
+
+.gallery-grid img{
+
+    height:190px;
+
+}
+
+}
