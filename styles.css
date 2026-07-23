@@ -4127,3 +4127,71 @@ Extra Small Phones
 }
 
 }
+/* ==========================
+   FAQ MOBILE FIX
+========================== */
+
+.faq-item{
+    width:100%;
+    overflow:hidden;
+    border-radius:15px;
+}
+
+.faq-question{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:15px;
+    width:100%;
+    cursor:pointer;
+}
+
+.faq-question h3{
+    flex:1;
+    margin:0;
+    font-size:20px;
+    line-height:1.5;
+    word-break:break-word;
+    overflow-wrap:break-word;
+}
+
+.faq-question span{
+    flex-shrink:0;
+    font-size:24px;
+}
+
+.faq-answer{
+    width:100%;
+    overflow:hidden;
+}
+
+.faq-answer p{
+    line-height:1.8;
+    word-break:break-word;
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+.faq{
+    padding:70px 20px;
+}
+
+.faq-item{
+    padding:18px;
+}
+
+.faq-question h3{
+    font-size:17px;
+}
+
+.faq-question{
+    align-items:flex-start;
+}
+
+.faq-question span{
+    margin-top:2px;
+}
+
+}
