@@ -1,0 +1,122 @@
+/* ===================================
+   EV CHARGING - MOBILE FIX
+=================================== */
+
+@media (max-width:768px){
+
+/* Hero */
+
+.ev-hero{
+    min-height:auto;
+    padding:100px 20px 60px;
+    background-attachment:scroll;
+}
+
+.ev-hero .container{
+    display:block;
+    width:100%;
+    text-align:center;
+}
+
+.ev-hero .hero-content{
+    max-width:100%;
+}
+
+.ev-hero h1{
+    font-size:32px !important;
+    line-height:1.2;
+}
+
+.ev-hero p{
+    font-size:16px;
+}
+
+.hero-buttons{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:15px;
+}
+
+.hero-buttons a{
+    width:220px;
+}
+
+/* About */
+
+.ev-grid{
+    display:block;
+}
+
+.ev-image{
+    margin-bottom:30px;
+}
+
+.ev-image img{
+    width:100%;
+}
+
+.ev-content{
+    text-align:center;
+}
+
+.ev-content h2{
+    font-size:30px;
+}
+
+.ev-content ul{
+    list-style:none;
+    padding:0;
+}
+
+/* Cards */
+
+.solution-grid,
+.charger-grid,
+.features-grid,
+.industry-grid,
+.gallery-grid{
+
+    display:grid;
+    grid-template-columns:1fr;
+    gap:20px;
+
+}
+
+.solution-card,
+.charger-card,
+.feature,
+.industry-grid div,
+.timeline div{
+
+    padding:22px;
+
+}
+
+/* Timeline */
+
+.timeline{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:18px;
+}
+
+/* Gallery */
+
+.gallery-grid img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+/* CTA */
+
+.ev-cta h2{
+    font-size:30px;
+}
+
+.ev-cta{
+    padding:70px 20px;
+}
+
+}
